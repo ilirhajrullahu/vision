@@ -53,7 +53,7 @@ class Kinetics(VisionDataset):
 
             Note: split is appended automatically using the split argument.
         frames_per_clip (int): number of frames in a clip
-        num_classes (int): select between Kinetics-400 (default), Kinetics-600, and Kinetics-700
+        num_classes (str): select between '400' (default), '600', and '700'
         split (str): split of the dataset to consider; supports ``"train"`` (default) ``"val"`` ``"test"``
         frame_rate (float): If omitted, interpolate different frame rate for each clip.
         step_between_clips (int): number of frames between each clip
